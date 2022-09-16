@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:animateLayoutChanges="true"
+    tools:context=".ExampleViewstubActivity">
+
+    <ViewStub
+        android:id="@+id/viewStub1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout="@layout/my_items1" />
+
+    <ViewStub
+        android:id="@+id/viewStub2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout="@layout/my_items2" />
+
+    <ViewStub
+        android:id="@+id/viewStub3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout="@layout/my_items3" />
+
+    <ViewStub
+        android:id="@+id/viewStub4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout="@layout/my_items4" />
+
+</LinearLayout>
